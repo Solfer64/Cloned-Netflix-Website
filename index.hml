@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container1">
+      <img
+        src="https://res.cloudinary.com/ds10p85zi/image/upload/v1672217460/netflix_logo-removebg-preview_hwmefc.png"
+        alt=""
+      />
+      <button class="btn"><a href="#">Sign In</a></button>
+      <h1>Unlimited movies, TV <br />shows, and more.</h1>
+      <h4>Watch anywhere. Cancel anytime.</h4>
+      <p>
+        Ready to watch? Enter your email to create or restart your membership.
+      </p>
+      <section class="contact-box">
+        <form action="#" method="GET">
+          <section class="email">
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
+            <button><a href="#">Get Started ></a></button>
+          </section>
+        </form>
+      </section>
+    </section>
+    <section class="features">
+      <section class="row">
+        <section class="text-col">
+          <h2>Enjoy on your TV.</h2>
+          <p>
+            Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+            players, and more.
+          </p>
+        </section>
+        <section class="media-col">
+          <img
+            class="tv"
+            src="https://res.cloudinary.com/ds10p85zi/image/upload/v1672397087/netflix1_lqw758.jpg"
+            alt=""
+          />
+          <video width="320" height="240" autoplay playsinline muted loop>
+            <source
+              src="https://res.cloudinary.com/ds10p85zi/video/upload/v1672397135/video-tv-0819_y9bxnv.mp4"
+              type="video/mp4"
+            />
+            <source
+              src="https://res.cloudinary.com/ds10p85zi/video/upload/v1672397135/video-tv-0819_y9bxnv.ogg"
+              type="video/ogg"
+            />
+          </video>
+        </section>
+      </section>
+    </section>
+    <div class="features2">
+      <div class="media-col2">
+        <div class="media-cont">
+          <img
+            class="look"
+            src="https://res.cloudinary.com/ds10p85zi/image/upload/v1672407851/look_back_bzf9x7.jpg"
+          />
+          <div class="media-cont2">
+              <img
+              class="pic2"
+              src="https://res.cloudinary.com/ds10p85zi/image/upload/v1672408339/stranger_rrjkc9.png"
+            <span class="text1">Stranger Things</span>
+            <span class="text2">Downloading...</span>
+            <img
+              class="gif"
+              src="https://res.cloudinary.com/ds10p85zi/image/upload/v1672504433/download-icon_rjk2j6.gif"
+            />
+          </div>
+        </div>
+      </div>
+      <div text-col2>
+        <h1>Download your shows to watch offline.</h1>
+        <p>Save your favorites easily and always have something to watch.</p>
+      </div>
+    </div>
+  </body>
+</html>
